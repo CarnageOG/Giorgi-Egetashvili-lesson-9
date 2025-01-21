@@ -35,3 +35,42 @@ h1{
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-auto-rows: minmax(100px, auto);
 	gap: 20px;
+	grid-template-areas:
+		"masonry1 respnsive overlap overlap"
+		"masonry1 fluid explicitly negative"
+		"flexible masonry2 explicitly masonry3"
+		"dom masonry2 named named";
+}
+.item1{
+	grid-area: masonry1;
+}
+.item2{
+	grid-area: respnsive;
+}
+.item3{
+	grid-area: overlap;
+}
+.item4{
+	grid-area: fluid;
+}
+.item5{
+	grid-area: explicitly;
+}
+.item6{
+	grid-area: negative;
+}
+.item7{
+	grid-area: flexible;
+}
+.item8{
+	grid-area: masonry2;
+}
+.item9{
+	grid-area: masonry3;
+}
+.item10{
+	grid-area: dom;
+}
+.item11{
+	grid-area: named;
+}
