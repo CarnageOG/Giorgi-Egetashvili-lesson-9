@@ -2,3 +2,36 @@
 	margin: 0;
 	padding: 0;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	background-color: #0A1172;
+}
+h1{
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+.conteiner{
+	max-width: 1440px;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	color: #0A1172;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.parent{
+	display: grid;
+	padding-bottom: 80px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	gap: 20px;
